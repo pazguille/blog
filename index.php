@@ -44,7 +44,7 @@ header('Content-type: text/html; charset=utf-8');
         <meta name="Revisit-after" content="1 Day" />
 		<meta name="description" content="SpaghettiBlog, Noticias, Artículos, Trucos, Tips, Webmasters, css, html, diseño Web, dise�o, desarrollo, Programacion, Tecnología, Codigo, Juegos, Hacks, Navegadores, Browser, Tutoriales" />
         <meta name="keywords" content="spaghettiBlog, noticias, artículos, trucos, tips, webmasters, css, html, diseño, web, programacion, tecnología, codigo, juegos, hacks, navegadores, browser" />        
-        <base href="http://www.spaghettiblog.com.ar/" />
+        <!--base href="http://www.spaghettiblog.com.ar/" /-->
         <link rel="alternate" title="SpaghettiBlog Feed" href="http://www.spaghettiblog.com.ar/atom" type="application/atom+xml" />
         <title>Spaghetti Blog <?php if(isset($_GET['categFriend'])){
         								echo(' - '.$categ[0]['categ_name']);
