@@ -145,9 +145,3 @@ ALTER TABLE `comments`
 --
 ALTER TABLE `posts`
   ADD CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`post_categ`) REFERENCES `categories` (`categ_id`) ON UPDATE CASCADE;
-
---
--- Constraints for table `users`
---
-ALTER TABLE `users`
-  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`user_sex`) REFERENCES `sexs` (`sex_id`) ON UPDATE CASCADE;
