@@ -29,7 +29,7 @@ if(isset($_POST['post_categ'])){
     </head>
 
     <body>
-    	
+
 		<?php include_once("includes/sections/header.php"); ?>
 		
 		<div id="contentWrap">

@@ -1,4 +1,4 @@
-<?php 
+<?php
 //Busco las categorias para listarlas (no voy a considerar a Inicio como una categor�a)
 $aCategs = obtenCategs();
 
