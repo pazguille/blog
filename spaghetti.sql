@@ -16,24 +16,6 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `busquedas`
---
-
-CREATE TABLE IF NOT EXISTS `busquedas` (
-  `search_id` int(7) unsigned NOT NULL auto_increment,
-  `search_value` varchar(100) collate utf8_spanish_ci default NULL,
-  `search_date` datetime default NULL,
-  PRIMARY KEY  (`search_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
-
---
--- Dumping data for table `busquedas`
---
-
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `categories`
 --
 
@@ -70,7 +52,7 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `com_ip` varchar(15) collate utf8_spanish_ci default NULL,
   PRIMARY KEY  (`com_id`),
   KEY `com_post` (`com_post`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=50 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=50 ;
 
 --
 -- Dumping data for table `comments`
@@ -116,7 +98,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `post_visits` mediumint(7) unsigned default '0',
   PRIMARY KEY  (`post_id`),
   KEY `post_categ` (`post_categ`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=25 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=25 ;
 
 --
 -- Dumping data for table `posts`
@@ -147,47 +129,6 @@ INSERT INTO `posts` (`post_id`, `post_categ`, `post_url`, `post_img`, `post_titl
 (24, 1, 'nuevas-etiquetas-de-html5', 'http://www.spaghettiblog.com.ar/img/post/newtags.png', 'Nuevas etiquetas de HTML5', 'En esta segunda parte vamos ver cuáles son las nuevas etiquetas que se incorporan para lograr una estructura semántica de nuestro código.', '<p>Como mencioné en el <a href="http://www.spaghettiblog.com.ar/articulos/introduccion-a-html5-parte-1">post anterior</a>, en esta versión de <strong>HTML</strong>, vamos a poder realizar un marcado mucho más semántico de nuestro código ya que se agregan nuevas etiquetas.</p>\r\n\r\n<h3>Primero, lo primero: Doctype</h3>\r\n\r\n<p>Como ya sabemos, antes de escribir cualquier documento HTML es necesario agregar el doctype para declarar que versión de HTML vamos a utilizar (de no hacerlo el browser entra en <a href="http://es.wikipedia.org/wiki/Quirks_Mode" target="_blank">quirks mode</a> y esto no es recomendable).</p>\r\n\r\n<p>El doctype que debemos utilizar para armar nuestro documento <strong>HTML5</strong> es:</p>\r\n\r\n<pre>\r\n&lt;!DOCTYPE html&gt;\r\n</pre>\r\n\r\n<h3>Etiquetas semánticas</h3>\r\n\r\n<p>HTML5 incorpora una gran variedad de nuevos elementos que nos permiten realizar un marcado semántico de la estructura de nuestro sitio, sin la necesidad de escribir los famosos divs con los ids o clases: "header", "content" o "footer".</p>\r\n\r\n<p>HTML5 quiere hacernos la vida una poco más fácil y para eso agregan las siguientes etiquetas:</p>\r\n<dl>\r\n<dt>header</dt>\r\n<dd>Dentro de éste elemento ubicaremos la introducción de una página o sección. Por ejemplo, puede contener el título de la página, un logo, o bien, el título de una sección en particular de la página (siempre utilizando las etiquetas de encabezados h1 a h6).</dd>\r\n<dd>\r\n<pre>\r\n&lt;header&gt;\r\n    &lt;h1&gt;SpaghettiBlog&lt;/h1&gt;\r\n&lt;/header&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>hgroup</dt>\r\n<dd>Esta etiqueta la podremos utilizar para agrupar un conjunto de títulos (h1-h6). Pueden ser múltiples títulos, o bien, subtítulos de una sección en particular de la página.</dd>\r\n<dd>\r\n<pre>\r\n&lt;hgroup&gt;\r\n    &lt;h1&gt;SpaghettiBlog&lt;/h1&gt;\r\n    &lt;h2&gt;Un subtítulo para el blog.&lt;/h2&gt;\r\n&lt;/hgroup&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>nav</dt>\r\n<dd>Este elemento está reservado para contener aquellos elementos que nos permitan navegar por el sitio (barra de navegación, listado de links, paginados, etc).<dd>\r\n<dd>\r\n<pre>\r\n&lt;nav&gt;\r\n   &lt;ul&gt;\r\n       &lt;li&gt;Inicio&lt;/li&gt;\r\n       &lt;li&gt;Artículos&lt;/li&gt;\r\n       &lt;li&gt;Noticias&lt;/li&gt;\r\n    &lt;/ul&gt;\r\n&lt;/nav&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>section</dt>\r\n<dd>Este elemento representa una sección genérica dentro de una página. Por ejemplo, puede estar dada por una agrupación de contenido.</dd>\r\n<dd>\r\n<pre>\r\n&lt;section&gt;\r\n    &lt;h2&gt;Desatacados&lt;/h2&gt;\r\n    &lt;p&gt;Los artículos destacados de esta semana....&lt;/p&gt;\r\n&lt;/section&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>article</dt>\r\n<dd>Este elemento representa una sección de la página que podría considerarse independiente del contenido. Por ejemplo un mensaje en un foro, un artículo de un diario, un post de un blog, comentarios enviados por usuarios, un widget interactivo o gadget.\r\n<dd>\r\n<pre>\r\n&lt;article&gt;\r\n    &lt;ul&gt;\r\n        &lt;li&gt;Twitter&lt;/li&gt;\r\n        &lt;li&gt;RSS Feeds&lt;/li&gt;\r\n        &lt;li&gt;Facebook&lt;/li&gt;\r\n    &lt;/ul&gt;\r\n&lt;/article&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>aside<dt>\r\n<dd>El elemento aside, representa una sección que está relacionada con el contenido principal de una página. Además. podría ser considerado independiente de dicho contenido. Por ejemplo: barras laterales de contenido, para  publicidad, grupos de elementos de navegación, y otro contenido que se considera separado del contenido principal.</dd>\r\n<dd>\r\n<pre>\r\n&lt;aside&gt;\r\n    &lt;article&gt;\r\n        &lt;ul&gt;\r\n            &lt;li&gt;Twitter&lt;/li&gt;\r\n            &lt;li&gt;RSS Feeds&lt;/li&gt;\r\n            &lt;li&gt;Facebook&lt;/li&gt;\r\n        &lt;/ul&gt;\r\n    &lt;/article&gt;\r\n&lt;/aside&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>figure</dt>\r\n<dd>Esta etiqueta nos permite agrupar diagramas, ilustraciones, fotos, y ejemplos de código (entre otras cosas), que le den sentido al contenido de una determinada sección, y manejarlos como si de una unidad se tratase. En caso de que este contenido este relacionado, se podría usar la etiqueta aside</dd>.\r\n<dd>\r\n<pre>\r\n&lt;figure&gt;\r\n    &lt;img src="photo.png" alt="alternative text" /&gt;\r\n&lt;/figure&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>figcaption</dt>\r\n<dd>Es la leyenda o título del elemento figure.</dd>\r\n<dd>\r\n<pre>\r\n&lt;figure&gt;\r\n    &lt;img src="photo1.png" alt="Imagen 1" /&gt;\r\n    &lt;img src="photo2.png" alt="Imagen 2" /&gt;\r\n    &lt;img src="photo3.png" alt="Imagen 3" /&gt;\r\n    &lt;figcaption&gt;Texto que resume las imagenes que estoy mostrando&lt;/figcaption&gt;\r\n&lt;/figure&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>video</dt>\r\n<dd>Esta nueva etiqueta, es uno de los más destacados ya que nos permite agregar elementos de video sin la necesidad de plug-ins extras.</dd>\r\n<dd>\r\n<pre>\r\n&lt;video src="video.ogv" controls poster="poster.jpg" width="320" height="240"&gt;\r\n    &lt;a href="video.ogv"&gt;Descargar video&lt;/a&gt;\r\n&lt;/video&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>audio</dt>\r\n<dd>Al igual que el video, uno de las etiquetas más detacadas. Con el podremos agregar sonidos o pistas de audio a nuestro sitio.</dd>\r\n<dd>\r\n<pre>\r\n&lt;audio src="audio.oga" controls &gt;\r\n    &lt;a href="audio.oga"&gt;Descargar sonido&lt;/a&gt;\r\n&lt;/audio&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>mark</dt>\r\n<dd>Esta etiqueta nos permite destacar texto o parte de un texto que sea relevante para el usuario.</dd>\r\n<dd>\r\n<pre>\r\nEsta etiqueta nos permite &lt;mark&gt;destacar texto o parte de un texto&lt;/mark&gt; que sea relevante para el usuario\r\n</pre>\r\n</dd>\r\n\r\n<dt>progress</dt>\r\n<dd>Representa el progreso de una tarea en curso. Por ejemplo, el de la descarga de un archivo.</dd>\r\n<dd>\r\n<pre>\r\n&lt;p&gt;Progreso:  &lt;progress&gt;  &lt;span id="p"&gt;20 &lt;/span&gt;%  &lt;/progress&gt;  &lt;/p&gt;\r\n</pre>\r\n</dd>\r\n\r\n\r\n<dt>meter</dt>\r\n<dd>La etiqueta meter representa una medida escalar dentro de un rango conocido, por ejemplo, un  puntaje.</dd>\r\n<dd>\r\n<pre>\r\nTu puntaje es: &lt;meter&gt; 2 de 10 &lt;/meter&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>time</dt>\r\n<dd>Se utiliza para representar fechas exactas.</dd>\r\n<dd>\r\n<pre>\r\n&lt;time datetime="2011-10-22T22:12Z"&gt;\r\nNovember 22th, 2011 at 22:12\r\n&lt;/time&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>canvas</dt>\r\n<dd>Es un API de dibujo para JavaScript, con la que podremos crear nuestros propios gráficos o cualquier imagen, controlando y accediendo a cada bitmap.</dd>\r\n<dd>\r\n<pre>\r\n&lt;canvas&gt;&lt;/canvas&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>svg</dt>\r\n<dd>Es una etiqueta que nos permite insertar dibujos y animaciones vectoriales, basado en el estándar abierto SVG (Scalable Vector Graphics).</dd>\r\n<dd>\r\n<pre>\r\n&lt;svg&gt;\r\n    &lt;circle id="myCircle" cx="50%" cy="50%" r="100"  fill="url(#gradient)" /&gt;\r\n&lt;/svg&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>command</dt>\r\n<dd>Esta etiqueta representa comandos que el usuario puede invocar. Por ejemplo, puede cada una de las opciones de un menú, una barra de herramientas, o bien, definir atajos de teclado.</dd>\r\n<dd>\r\n<pre>\r\n&lt;menu&gt;\r\n    &lt;command type="radio" label="Save as" icon="save.png" onclick="saveAs()" /&gt;\r\n&lt;/menu&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>menu</dt>\r\n<dd>El menu representa una lista de comandos. Por ejemplo, una barra de herramientas o un menú de acciones.</dd>\r\n<dd>\r\n<pre>\r\n&lt;menu&gt;\r\n    &lt;command type="radio" label="Save as" icon="save.png" onclick="saveAs()" /&gt;\r\n    &lt;command type="radio" label="Open" icon="open.png" onclick="open()" /&gt;\r\n    &lt;command type="radio" label="Send" icon="send.png" onclick="send()" /&gt;\r\n&lt;/menu&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>details</dt>\r\n<dd>Es un elemento que funciona como un widget, ya que el usuario podrá visualizar más información o detalles de una entidad al hacerle click. Por ejemplo, nos permite agrupar detalles de un archivo.</dd>\r\n<dd>\r\n<pre>\r\n&lt;details&gt;\r\n    &lt;summary&gt;Show/hide me&lt;/summary&gt;\r\n    &lt;p&gt;Muestro detalles&lt;/p&gt;\r\n&lt;/details&gt;\r\n</pre>\r\n</dd>\r\n            \r\n<dt>summary</dt>\r\n<dd>Es un resumen, título o leyenda que se utiliza, dentro de la etiqueta details, para agrupar el resto del contenido.</dd>\r\n<dd>\r\n<pre>\r\n&lt;details&gt;\r\n    &lt;summary&gt;Show/hide me&lt;/summary&gt;\r\n    &lt;p&gt;Muestro detalles&lt;/p&gt;\r\n&lt;/details&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>datalist</dt>\r\n<dd>El elemento datalist es un conjunto de opciones predefinidas ara otros controles, por ejemplo, un input de texto.</dd>\r\n<dd>\r\n<pre>\r\n&lt;input type="text" name="frutas" list="frutas"&gt;\r\n&lt;datalist&gt;\r\n    &lt;option value="manzana"&gt;Manzana&lt;/option&gt;\r\n    &lt;option value="banana"&gt;Banana&lt;/option&gt;\r\n    &lt;option value="pera"&gt;Pera&lt;/option&gt;\r\n&lt;/datalist&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>keygen</dt>\r\n<dd>Keygen es un control que genera claves para autentificar a los usuarios, al enviar un formulario. Una vez que este se envía, se generan dos claves: una privada que se guarda en el local keystore y otra publica la cual se envía al servidor.</dd>\r\n<dd>\r\n<pre>\r\n&lt;form&gt;\r\n    &lt;input type="text" name="nombre"&gt;\r\n    &lt;keygen name="key"&gt;\r\n    &lt;input type="submit" name="name" value="Enviar"&gt;\r\n&lt;/form&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>output</dt>\r\n<dd>Este elemento representa el resultado o valor  de un cálculo, el cuál puede ser realizado mediante un script o ingresado por el usuario.</dd>\r\n<dd>\r\n<pre>\r\n&lt;form&gt;\r\n    &lt;label for="score">Score&lt;/label&gt;\r\n    &lt;input name="flying-level" id="score" type="range" min="0" max="250"&gt;\r\n    &lt;output for="score" onforminput="value = score.valueAsNumber"&gt;0&lt;/output&gt;\r\n    &lt;input type="submit" name="name" value="Enviar" &gt;\r\n&lt;/form&gt;\r\n</pre>\r\n</dd>\r\n\r\n<dt>footer</dt>\r\n<dd>Dentro de éste elemento ubicaremos el pie de una página o sección.</dd>\r\n<dd>\r\n<pre>\r\n&lt;footer&gt;\r\n    &lt;p&gt;© 2011 spaghettiBlog.com.ar | Diseñado y desarrollado por Guillermo Paz - Todos los derechos reservados.&lt;/p&gt;\r\n&lt;/footer&gt;\r\n</pre>\r\n</dd>\r\n\r\n</dl>\r\n\r\n<h3>Oh! ¿Se murió el div? </h3>\r\n<p><strong>NO</strong>, el div todavía sigue vivo y no lo eliminen como muchos hicieron con las tablas.</p>\r\n<p>Hasta el día de hoy, conozco muchas personas que tienen miedo tablas o les parece una mala palabra, sin conocer ni entender su sentido semántico.</p>\r\n<p>Las tablas son para tabular datos y punto (vi datos tabulados en listas flotadas o divs :O).</p>\r\n</p>El que haya nuevos elementos no quiere decir que no se puedan seguir utilizando al viejo y amado div. Simplemente, ahora contamos con nuevas etiquetas que tienen un rol semántico en nuestro código, reemplazando los divs que se creían "header", "navs" o "footers"</p>\r\n<p>Ahora tenemos etiquetas concretas que cumplen esa finalidad.</p>', 1, '2011-10-24 23:22:04', NULL, NULL, 'html, html5, article, header, footer, section, nav, canvas, etiquetas, tags, svg, video, audio, aside', 0);
 
 -- --------------------------------------------------------
-
---
--- Table structure for table `sexs`
---
-
-CREATE TABLE IF NOT EXISTS `sexs` (
-  `sex_id` tinyint(1) unsigned NOT NULL auto_increment,
-  `sex_value` varchar(9) collate utf8_spanish_ci default NULL,
-  PRIMARY KEY  (`sex_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
-
---
--- Dumping data for table `sexs`
---
-
-
--- --------------------------------------------------------
-
---
--- Table structure for table `users`
---
-
-CREATE TABLE IF NOT EXISTS `users` (
-  `user_id` mediumint(7) unsigned NOT NULL auto_increment,
-  `user_nick` varchar(50) collate utf8_spanish_ci NOT NULL,
-  `user_pass` varchar(32) collate utf8_spanish_ci NOT NULL,
-  `user_email` varchar(50) collate utf8_spanish_ci NOT NULL,
-  `user_sex` tinyint(1) unsigned NOT NULL,
-  `user_enabled` tinyint(1) NOT NULL default '1',
-  `user_up` date NOT NULL,
-  `user_down` date default NULL,
-  PRIMARY KEY  (`user_id`),
-  UNIQUE KEY `user_nick` (`user_nick`),
-  UNIQUE KEY `user_email` (`user_email`),
-  KEY `user_sex` (`user_sex`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=1 ;
-
---
--- Dumping data for table `users`
---
-
 
 --
 -- Constraints for dumped tables
