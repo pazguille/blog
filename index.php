@@ -36,20 +36,20 @@ header('Content-type: text/html; charset=utf-8');
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
         <meta name="language" content="es-ES" />
         <meta name="copyright" content="2011 spaghettiBlog.com.ar" />
         <meta name="author" content="SpaghettiBlog.com.ar" />
         <meta name="robots" content="all" />
         <meta name="Revisit-after" content="1 Day" />
-		<meta name="description" content="SpaghettiBlog, Noticias, Artículos, Trucos, Tips, Webmasters, css, html, diseño Web, dise�o, desarrollo, Programacion, Tecnología, Codigo, Juegos, Hacks, Navegadores, Browser, Tutoriales" />
+	<meta name="description" content="SpaghettiBlog, Noticias, Artículos, Trucos, Tips, Webmasters, css, html, diseño Web, dise�o, desarrollo, Programacion, Tecnología, Codigo, Juegos, Hacks, Navegadores, Browser, Tutoriales" />
         <meta name="keywords" content="spaghettiBlog, noticias, artículos, trucos, tips, webmasters, css, html, diseño, web, programacion, tecnología, codigo, juegos, hacks, navegadores, browser" />        
         <!--base href="http://www.spaghettiblog.com.ar/" /-->
         <link rel="alternate" title="SpaghettiBlog Feed" href="http://www.spaghettiblog.com.ar/atom" type="application/atom+xml" />
         <title>Spaghetti Blog <?php if(isset($_GET['categFriend'])){
         								echo(' - '.$categ[0]['categ_name']);
         							}?></title>
-		<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />-->
+	<!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />-->
         <link href="css/css.php?q=reset,styles" rel="stylesheet" type="text/css" media="screen" />        
     </head>
 
