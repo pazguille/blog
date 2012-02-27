@@ -1,1 +1,1 @@
-<p><small>&copy; <?php echo(date('Y')); ?> spaghettiBlog.com.ar | Diseñado y desarrollado por <a href="http://www.pazguillermo.com.ar" target="_blank">Guillermo Paz</a> - Todos los derechos reservados.</small></p>
+<p><small>&copy; <?php echo(date('Y')); ?> spaghettiblog.com.ar | <a href="http://pazguillermo.com.ar" target="_blank">Guille Paz</a>.</small></p>
