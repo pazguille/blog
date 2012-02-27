@@ -1,11 +1,11 @@
 body {
-	background:#F9F9F9 url("/img/noise.gif") 0 0 repeat;
+	background: #F9F9F9 url("/img/roughcloth.png") 0 0 repeat;
 	color: #333;
-	font:13px/20px Arial, Helvetica, "Nimbus Sans L", sans-serif;
-	margin:0 auto;
+	font: 13px/20px "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	margin: 0 auto;
 }
 
-a {color:#3151a2;}
+a {color:#B53D25;}
 
 a:visited {color:#551A8B;}
 
@@ -41,7 +41,7 @@ header.main {
 	background:url("/img/logo.png") no-repeat;
 }
 
-.logo a{display:block;height:85px;width:280px;}
+.logo a{display:block;height:50px;width:280px;}
 .buscador{position:absolute;top:40px;right:10px;}
 .buscador input.search{border:1px solid #5c5c5c;width:350px;height:20px;height:18px !IE;}
 .btn{background-color:#333333;color:#FFFFFF;border:1px solid #5c5c5c;cursor:pointer;padding:3px 6px;padding:1px 0 !IE;}
@@ -81,22 +81,22 @@ section.main{float:left;padding:0 10px;width:715px;position:relative;}
 .postPreview,
 #postView{
 	background: none repeat scroll 0 0 white;
-	border: 1px solid #EEEEEE;
-	-ms-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-o-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
-	-o-box-shadow: 1px 2px 1px #CCCCCC;
-	-moz-box-shadow: 1px 2px 1px #CCCCCC;
-	-ms-box-shadow: 1px 2px 1px #CCCCCC;
-	-webkit-box-shadow: 1px 2px 1px #CCCCCC;
-	box-shadow: 1px 2px 1px #CCCCCC;
+	border: 1px solid rgba(0, 0, 0, .1);
+	-ms-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-ms-text-shadow: 0 1px 0 white;
+	-o-text-shadow: 0 1px 0 white;
+	-moz-text-shadow: 0 1px 0 white;
+	-webkit-text-shadow: 0 1px 0 white;
+	text-shadow: 0 1px 0 white;
 	margin: 0 0 20px;
 	padding: 10px 15px;
 	position: relative;
 }
-.titlePost{color:#c82e26;font:bold 2.40em/1.12em Arial,Helvetica,sans-serif;padding:10px 70px 8px;height:65px;}
+.titlePost{color:#c82e26;font:bold 2.40em/1.12em "Helvetica Neue",Helvetica,Arial,sans-serif;padding:10px 70px 8px;height:65px;}
 .titlePost a{color:#c82e26;text-decoration:none;}
 .titlePost a:hover{color:#ffffff;background-color:#c82e26;}
 .fechaPost, #postView .fechaPost{height:57px;width:55px;margin:0;position:absolute;top:20px !important;top:20px;left:10px !important;left:-70px;text-align:center;background:url('/img/fecha-bg.gif') no-repeat;}
