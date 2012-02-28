@@ -178,7 +178,7 @@ section.main{float:left;padding:0 10px;width:715px;position:relative;}
 	padding: 10px 15px;
 	position: relative;
 }
-.titlePost{color:#c82e26;font:bold 2.40em/1.12em "Helvetica Neue",Helvetica,Arial,sans-serif;padding:10px 70px 8px;height:65px;}
+.titlePost{color:#c82e26;font:bold 2.40em/1.12em "Helvetica Neue",Helvetica,Arial,sans-serif;padding:10px 60px 8px;height:65px;}
 .titlePost a{color:#c82e26;text-decoration:none;}
 .titlePost a:hover{color:#ffffff;background-color:#c82e26;}
 .fechaPost, #postView .fechaPost{height:57px;width:55px;margin:0;position:absolute;top:20px !important;top:20px;left:10px !important;left:-70px;text-align:center;background:url('/img/fecha-bg.gif') no-repeat;}
