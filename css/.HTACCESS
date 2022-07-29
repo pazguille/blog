@@ -1,3 +1,0 @@
-RewriteEngine on
-
-Rewriterule ^post/(.+)/(.+) post.php?id =$1&title=$2

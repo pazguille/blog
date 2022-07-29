@@ -1,1 +1,0 @@
-<p><small>&copy; <?php echo(date('Y')); ?> spaghettiblog.com.ar | <a href="http://pazguillermo.com.ar" target="_blank">Guille Paz</a>.</small></p>
