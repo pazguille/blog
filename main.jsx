@@ -1,7 +1,9 @@
 /** @jsx h */
 
+import blog, { ga } from 'https://deno.land/x/blog/blog.tsx';
 import { h } from 'https://esm.sh/preact';
-import blog from 'https://deno.land/x/blog/blog.tsx';
+
+import Footer from './components/Footer.jsx';
 
 blog({
   lang: "es-AR",
@@ -9,28 +11,18 @@ blog({
   author: "Guille Paz",
   title: "Guille Paz",
   description: "Algunas cosas que tengo en la cabeza y trato de bajar a pantalla.",
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
-  favicon: "https://pazguille.me/src/assets/favicon.ico",
+  favicon: "./assets/favicon.ico",
+  avatar: "./assets/avatar.jpeg",
   avatarClass: "rounded-full",
   links: [
-    { title: "Email", url: "mailto:hi@pazguille.me" },
+    { title: "Email", url: "mailto:guille87paz@gmail.com" },
     { title: "GitHub", url: "https://github.com/pazguille" },
     { title: "Twitter", url: "https://twitter.com/pazguille" },
   ],
-  footer: (
-    <footer class="mt-20 pb-16 lt-sm:pb-8 lt-sm:mt-16">
-      <p class="flex items-center gap-2.5 text-gray-400/800 dark:text-gray-500/800 text-sm">
-        <span>© 2022 - Made with ❤ by Guille Paz</span>
-        ·
-        <a href="/feed" class="inline-flex items-center gap-1 hover:text-gray-800 dark:hover:text-gray-200 transition-colors" title="Atom Feed"><svg class="inline-block w-4 h-4" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z"></path><path d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z"></path></svg> RSS</a>
-      </p>
-    </footer>
-  ),
-
+  middlewares: [
+    ga('G-7PQP926E3C'),
+  ],
+  footer: <Footer />,
   // style: ``,
   // showHeaderOnPostPage: true,
-  // middlewares: [
-    // If you want to set up Google Analytics, paste your GA key here.
-    // ga("UA-XXXXXXXX-X"),
-  // ]
 });
