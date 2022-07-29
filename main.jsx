@@ -11,9 +11,9 @@ blog({
   author: "Guille Paz",
   title: "Guille Paz",
   description: "Algunas cosas que tengo en la cabeza y trato de bajar a pantalla.",
-  favicon: "./assets/favicon.ico",
-  avatar: "./assets/avatar.jpeg",
-  ogImage: "./assets/avatar.jpeg",
+  favicon: "/assets/favicon.ico",
+  avatar: "/assets/avatar.jpeg",
+  ogImage: "/assets/avatar.jpeg",
   avatarClass: "rounded-full",
   links: [
     { title: "Email", url: "mailto:guille87paz@gmail.com" },
