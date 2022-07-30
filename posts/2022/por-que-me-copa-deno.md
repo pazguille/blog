@@ -5,6 +5,7 @@ description: >
   Una dato que no suma nada es que DE-NO al revés es NO-DE, pero ahora todo tiene sentido.
 publish_date: 2022-07-30
 cover_html: <img alt="" src="/assets/deno-logo.png" style="margin:0 auto;" width="256" height="256">
+ogImage: /assets/deno-logo.png
 ---
 
 ---
