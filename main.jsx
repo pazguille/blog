@@ -23,4 +23,5 @@ blog({
     ga('G-7PQP926E3C'),
   ],
   footer: <Footer />,
+  style: `ul { list-style: disc; } ol { list-style: decimal; }`,
 });
