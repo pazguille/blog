@@ -7,6 +7,7 @@ import Footer from './components/Footer.jsx';
 
 blog({
   lang: "es-AR",
+  theme: "dark",
   dateStyle: "long",
   author: "Guille Paz",
   title: "Guille Paz",
