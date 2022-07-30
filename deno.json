@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "TZ=UTC deno run --allow-net --allow-read --allow-env --watch main.jsx --dev",
-    "serve": "TZ=UTC deno run --allow-net --allow-read --allow-env --no-check main.jsx",
+    "dev": "TZ=UTC deno run --allow-net --allow-read --allow-env --watch --no-check main.jsx --dev",
+    "serve": "TZ=UTC deno run --allow-net --allow-read --allow-env --no-check main.jsx"
   }
 }
