@@ -19,9 +19,9 @@ blog({
     { title: 'GitHub', url: 'https://github.com/pazguille' },
     { title: 'Twitter', url: 'https://twitter.com/pazguille' },
   ],
-  middlewares: [
-    ga('G-7PQP926E3C'),
-  ],
+  // middlewares: [
+  //   ga4('G-7PQP926E3C'), // Waiting for https://github.com/denoland/deno_blog/pull/31
+  // ],
   footer: <Footer />,
   style: `ul { list-style: disc; } ol { list-style: decimal; }`,
 });
