@@ -3,7 +3,7 @@ title: >
   ¿Por qué me copa Islands Architecture?
 description: >
   La idea de 🏝 Islands Architecture es muy simple: separar las partes dinámicas de las estáticas dentro de una página.
-publish_date: 2022-08-19
+publish_date: 2022-08-18
 cover_html: <img alt="" src="/assets/islands-cover.jpg" style="margin:0 auto;" width="592" height="296">
 og:image: https://blog.pazguille.me/assets/islands-cover.png
 ---
