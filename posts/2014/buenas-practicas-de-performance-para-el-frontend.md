@@ -4,6 +4,7 @@ title: >
 description: >
   La performance y velocidad, junto a la experiencia del usuario de nuestros sitios y aplicaciones son puntos claves que tenemos que tener en cuenta desde el principio de un desarrollo.
 publish_date: 2014-05-27
+allow_iframes: true
 ---
 
 ---
@@ -42,7 +43,7 @@ Al cargar los estilos lo antes posible, logramos que la página se muestre progr
 
 A continuación, [podemos ver cómo los browsers rederizan nuestros documentos](https://www.youtube.com/embed/QVFoI9HNJ34) una vez que se descargan e interpretan los archivos CSS.
 
-<iframe width="692" height="519" src="https://www.youtube.com/embed/QVFoI9HNJ34" title="HTML Rendering" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/QVFoI9HNJ34" title="HTML Rendering" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Si los archivos de CSS no son muy pesados**, podemos insertarlos directamente en el documento HTML **dentro de un tag `<style>`**.
 
@@ -96,7 +97,7 @@ A modo de ejemplo, veamos como podemos cargar una imágen:
 
 Luego de implementar estas buenas prácticas en [la nueva landing de Mango](https://getmango.com/), [logramos reducir hasta 1 segundo la carga inicial](https://www.youtube.com/embed/M9fZ_0WtUOA).
 
-<iframe width="692" height="389" src="https://www.youtube.com/embed/M9fZ_0WtUOA" title="Mango Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/M9fZ_0WtUOA" title="Mango Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Si quieren conocer más detalles sobre buenas prácticas, herramientas y técnicas, [los invito a que vean la charla](https://www.youtube.com/watch?v=F5srxM9s6lQ&t=2751s&ab_channel=LABgcba-LaboratoriodeGobierno) que dí en el primer Buenos Aires Frontend Meetup.
 

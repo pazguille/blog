@@ -6,6 +6,7 @@ description: >
 publish_date: 2021-11-03
 cover_html: <img alt="" src="https://miro.medium.com/max/1400/1*Y3e8EFhg8l0hHbkrNDWOrA.jpeg" style="margin:0 auto;" width="592" height="296">
 og:image: https://miro.medium.com/max/1400/1*Y3e8EFhg8l0hHbkrNDWOrA.jpeg
+allow_iframes: true
 ---
 
 ---
@@ -60,7 +61,7 @@ Nuestro ecosistema de productos cuenta con una gran cantidad de flujos. Empezamo
 
 Estas acciones nos permitieron aprender [la importancia de realizar testeos manuales](https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/) con personas que presentan alguna discapacidad para asegurarnos de que las soluciones aplicadas tengan el impacto adecuado. Los testeos automáticos son una excelente herramienta para entender si estamos siguiendo las guías y buenas prácticas, pero no garantizan que la experiencia sea accesible.
 
-<iframe width="692" height="389" src="https://www.youtube.com/embed/aE_jw1kD08Y" title="Precios accesibles." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/aE_jw1kD08Y" title="Precios accesibles." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Solucionamos el estado de foco en los elementos al navegar por teclado.
 ](https://miro.medium.com/max/1400/1*AfJV9sz85dkD1S6Vf1JUOg.gif)

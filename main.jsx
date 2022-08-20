@@ -1,6 +1,7 @@
 /** @jsx h */
 import { h } from 'https://esm.sh/preact';
 import blog, { ga } from 'https://deno.land/x/blog/blog.tsx';
+// import blog from 'https://raw.githubusercontent.com/pazguille/deno_blog/main/blog.tsx';
 import Footer from './components/Footer.jsx';
 
 blog({
