@@ -42,7 +42,7 @@ A nivel frameworks, la simplicidad de https://fresh.deno.dev es para seguir de c
 
 Sería ideal tener Islands en Next.js para que más personas puedan adoptar esta arquitectura y mantener simpleza en sus desarrollos.
 
-[React Server Componentes](https://nextjs.org/docs/advanced-features/react-18/server-components) parece ser la respuesta pero considero que aún sigue siendo complejo y se encuentra en desarrollo.
+[React Server Components](https://nextjs.org/docs/advanced-features/react-18/server-components) parece ser la respuesta pero considero que aún sigue siendo complejo y se encuentra en desarrollo.
 
 Chao. 🚀
 
