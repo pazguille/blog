@@ -16,9 +16,33 @@ export default function Footer() {
             return;
           };
 
-          Array.from(document.querySelectorAll('h3 a')).forEach((a) => {
-            document.head.insertAdjacentHTML('beforeend', '<link rel="prefetch" href="'+ a.href +'" as="html" />');
-          });
+          window.requestIdleCallback = window.requestIdleCallback || function (cb) {
+            const start = Date.now();
+            return setTimeout(function () {
+              cb({
+                didTimeout: false,
+                timeRemaining: function () {
+                  return Math.max(0, 50 - (Date.now() - start));
+                }
+              });
+            }, 1);
+          };
+
+          const io = new IntersectionObserver(
+            async (entries) => {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  requestIdleCallback(() => {
+                    document.head.insertAdjacentHTML('beforeend', '<link rel="prefetch" href="'+ entry.target.href +'" as="html" />');
+                    io.unobserve(entry.target);
+                  });
+                }
+              });
+            }
+          );
+
+          Array.from(document.querySelectorAll('h3 a'))
+            .forEach(link => io.observe(link));
         });
       `}} />
     </footer>
