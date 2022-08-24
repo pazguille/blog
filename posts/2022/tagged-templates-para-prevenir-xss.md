@@ -4,6 +4,8 @@ title: >
 description: >
   No sabía es que se pueden crear `tagged templates`: funciones que permiten parsear los template literals de forma custom.
 publish_date: 2022-08-23
+cover_html: <img alt="" src="/assets/tagged-templates.png" style="margin:0 auto;" width="592" height="296">
+og:image: https://blog.pazguille.me/assets/tagged-templates.png
 ---
 
 ---

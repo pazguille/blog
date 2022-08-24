@@ -1,6 +1,6 @@
 # Guille Paz's Blog
 
-![Guille Paz's Blog preview](assets/preview.png)
+![Guille Paz's Blog preview](assets/preview.jpg)
 
 To get it running:
 
