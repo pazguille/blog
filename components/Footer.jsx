@@ -33,7 +33,7 @@ export default function Footer() {
               entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                   requestIdleCallback(() => {
-                    document.head.insertAdjacentHTML('beforeend', '<link rel="prefetch" href="'+ entry.target.href +'" as="html" />');
+                    document.head.insertAdjacentHTML('beforeend', '<link rel="prefetch" href="'+ entry.target.href +'" />');
                     io.unobserve(entry.target);
                   });
                 }
