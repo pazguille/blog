@@ -22,7 +22,7 @@ La mejor forma de diferenciarlos es agarrando papel y lápiz (o cualquier tool p
 - ***¿Cuáles requieren interacción en el cliente?***
 - ***¿Cuáles puedo cargar a demanda?***
 
-![Análisis de los componentes Server y Client que componen el sitio xstoregames.com](/assets/server-client-anatomy.jpg)
+[![Análisis de los componentes Server y Client que componen el sitio xstoregames.com](/assets/server-client-anatomy.jpg)](https://blog.pazguille.me/assets/server-client-anatomy.jpg)
 
 Construir utilizando ambos componentes brindan los siguientes beneficios:
 
