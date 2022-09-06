@@ -3,7 +3,7 @@ title: >
   Server Components y Client Components
 description: >
   Un skill importante que se necesita en frontend es diferenciar componentes server-side y client-side.
-publish_date: 2022-09-05
+publish_date: 2022-09-06
 cover_html: <img alt="" src="/assets/server-client-components.png" style="margin:0 auto;" width="592px" height="359px">
 og:image: https://blog.pazguille.me/assets/server-client-components.png
 ---
