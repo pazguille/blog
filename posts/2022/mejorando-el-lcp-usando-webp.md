@@ -4,7 +4,7 @@ title: >
 description: >
   Armé un servicio para optimizar las imágenes de la API de Microsoft que afectaban el LCP de https://xstoregames.com
 publish_date: 2022-09-13
-cover_html: <img alt="" src="/assets/lcp-optimize.jpg" style="margin:0 auto;" width="592" height="395">
+cover_html: <img alt="" src="/assets/lcp-optimize.jpg" style="margin:0 auto;" width="592" height="177">
 og:image: https://blog.pazguille.me/assets/lcp-optimize.jpg
 ---
 
@@ -18,7 +18,7 @@ Actualmente está construido con una arquitectura [100% client-side](https://www
 
 En este caso el LCP son las imágenes de los juegos y vienen de una API que consumo de Microsoft de la cual no soy dueño.
 
-[Las imágenes son el recurso más pesado de la web](https://almanac.httparchive.org/en/2021/page-weight#page-weight-by-the-numbers) cuando no se optimizan y, en mi caso, al no ser el dueño no tengo control para optimizarlas. Pero... ¿no tengo control para optimizarlas? 
+[Las imágenes son el recurso más pesado de la web](https://almanac.httparchive.org/en/2021/page-weight#page-weight-by-the-numbers) cuando no se optimizan y, en mi caso, al no ser el dueño no tengo control para optimizarlas. Pero... ¿no tengo control para optimizarlas?
 
 ¡Sí, lo tengo! Para ello, armé un "servicio" que me permite optimizar las imágenes que me devuelve la API de Microsoft y entregar [WebP](https://xbox-games-api.vercel.app/api/image/apps.3458.14519454624678828.1302cdcc-5bca-4ad4-9d5f-5610ae87cd80.0060eafa-b18a-4e2e-b30b-17de3326c7f1) en vez de [JPG](https://store-images.s-microsoft.com/image/apps.3458.14519454624678828.1302cdcc-5bca-4ad4-9d5f-5610ae87cd80.0060eafa-b18a-4e2e-b30b-17de3326c7f1).
 
@@ -68,7 +68,3 @@ Chao. 🚀
 
 
 *Foto de cover de https://web.dev/optimize-lcp/*.
-
-
-
-
