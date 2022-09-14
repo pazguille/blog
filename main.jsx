@@ -7,7 +7,6 @@ import Footer from './components/Footer.jsx';
 blog({
   lang: 'es-AR',
   theme: 'dark',
-  dateStyle: 'long',
   author: 'Guille Paz',
   title: 'Guille Paz',
   description: 'Algunas cosas que tengo en la cabeza y trato de bajar a pantalla.',
@@ -20,6 +19,7 @@ blog({
     { title: 'GitHub', url: 'https://github.com/pazguille' },
     { title: 'Twitter', url: 'https://twitter.com/pazguille' },
   ],
+  dateFormat: (date) => date.toLocaleDateString('es-AR', { dateStyle: 'medium' }),
   // middlewares: [
   //   ga4('G-7PQP926E3C'), // Waiting for https://github.com/denoland/deno_blog/pull/31
   // ],
