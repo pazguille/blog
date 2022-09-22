@@ -40,7 +40,7 @@ Muy importante la documentación, cursos, soporte y comunidad que va a acompaña
 
 Por otro lado, la cantidad de gente que hay en el mercado desarrollando con la tecnología va a facilitar la contratación y crecer más rápido.
 
-###Reutilización y Organización
+### Reutilización y Organización
 React se basa en [una arquitectura de componentes](https://medium.com/omarelgabrys-blog/component-based-architecture-3c3c23c7e348) por lo que nos permite componentizar y módularizar muy bien el código, casi sin pensarlo.
 
 De esta manera podemos reutilizar código dentro de una aplicación y entre aplicaciones de diferentes equipos de una manera muy sencilla.
@@ -49,9 +49,7 @@ Este punto es clave para escalar y no reinventar la rueda en cada nuevo desarrol
 
 Por otro lado, podemos reutilizar los componentes en el server ya que lo usamos como template engine. Por ejemplo, el header de Mercado Libre es un componente de React que funciona server-side only y se reutiliza en toda la compañía.
 
-----
-
-*Conclusión*
+**Conclusión**
 
 Actualmente parece impensable dudar de React como parte del stack de front y justamente **es cuando más hay que preguntarnos el "¿Por Qué?"**.
 
