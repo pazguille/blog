@@ -4,7 +4,7 @@ title: >
 description: >
   El resultado sigue confirmando que me copa Deno porque tiene foco en ser compatible con la plataforma web, funciona como el navegador.
 publish_date: 2022-09-30
-cover_html: <img alt="" src="/assets/base64-deno.jpg" style="margin:0 auto;" width="592" height="395">
+cover_html: <img alt="" src="/assets/base64-deno.jpg" style="margin:0 auto;" width="592" height="199">
 og:image: https://blog.pazguille.me/assets/base64-deno.jpg
 ---
 
