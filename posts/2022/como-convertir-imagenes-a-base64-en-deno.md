@@ -1,6 +1,6 @@
 ---
 title: >
-  ¿Cómo convertir imágenes a base64 con Deno?
+  ¿Cómo convertir imágenes a base64 en Deno?
 description: >
   El resultado sigue confirmando que me copa Deno porque tiene foco en ser compatible con la plataforma web, funciona como el navegador.
 publish_date: 2022-09-30
