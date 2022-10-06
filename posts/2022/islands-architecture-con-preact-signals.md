@@ -4,7 +4,7 @@ title: >
 description: >
   Preact Signals viene a llenar el espacio vacío entre las islas 🏝.
 publish_date: 2022-09-07
-cover_html: <img alt="" src="/assets/island-signals.jpg" style="margin:0 auto;" width="592" height="395">
+cover_html: <img alt="" src="/assets/island-signals.jpg" style="margin:0 auto;" width="592" height="322">
 og:image: https://blog.pazguille.me/assets/island-signals.jpg
 ---
 
@@ -96,7 +96,7 @@ export function App(props) {
 }
 ```
 
-¡Esto es game changer! Es el tipo de cambios que suman y avanzan a nivel DX y UX (performance). 
+¡Esto es game changer! Es el tipo de cambios que suman y avanzan a nivel DX y UX (performance).
 
 Me permite mantener simplicidad y cubrir ese espacio que parecía vacío.
 
