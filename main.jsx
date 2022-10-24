@@ -24,5 +24,5 @@ blog({
   //   ga4('G-7PQP926E3C'), // Waiting for https://github.com/denoland/deno_blog/pull/31
   // ],
   footer: <Footer />,
-  style: `ul { list-style: disc; } ol { list-style: decimal; }`,
+  style: `ul { list-style: disc; } ol { list-style: decimal; } iframe { aspect-ratio:16/9; }`,
 });
