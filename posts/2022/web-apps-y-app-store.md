@@ -66,7 +66,7 @@ Actualmente, es posible publicar PWAs en los Stores (Play Store, Microsoft y App
 
 [Cada vez hay más capabilities disponibles](https://developer.chrome.com/blog/fugu-status/) pudiendo crear las mismas experiencias en diferentes plataformas y así se va cerrando el GAP con nativo pero aún hay un gran recorrido por delante.
 
-El futuro se prometedor.
+El futuro es prometedor.
 
 Chao. 🚀
 
