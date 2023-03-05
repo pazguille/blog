@@ -4,7 +4,7 @@ title: >
 description: >
   En 2021 tuve la posibilidad de dictar un taller sobre ⚡️Web Performance y ¡está disponible totalmente GRATIS!
 publish_date: 2023-03-05
-cover_html: <img alt="" src="/assets/taller-rocket.jpg" style="margin:0 auto;" width="592" height="208">
+cover_html: <img alt="" src="/assets/taller-rocket.jpg" style="margin:0 auto;" width="592" height="303">
 og:image: https://blog.pazguille.me/assets/taller-rocket.jpg
 allow_iframes: true
 ---
