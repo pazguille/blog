@@ -25,5 +25,5 @@ blog({
   // ],
   footer: <Footer />,
   style: `ul { list-style: disc; } ol { list-style: decimal; } iframe { aspect-ratio:16/9; }
-  img { aspect-ratio: 16/9; width: 100%; object-fit: cover;`,
+  img { aspect-ratio: 16/9; width: 100%;`,
 });

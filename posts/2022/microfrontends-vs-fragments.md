@@ -28,7 +28,7 @@ En resumen, es un tema de naming y conceptual pero me sirve para empezar a habla
 
 Con esto ya puedo dormir tranquilo y empezar a pensar en Fragments.
 
-[Microfrontends ya está adentro](https://blog.pazguille.me/micro-frontends-a-escala) 😁
+[Microfrontends ya está adentro](https://blog.pazguille.me/2021/micro-frontends-a-escala) 😁
 
 Lecturas recomendadas:
 
