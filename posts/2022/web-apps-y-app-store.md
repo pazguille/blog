@@ -17,7 +17,7 @@ No estoy a favor de la discusión Web vs Native sino todo lo contrario, apuesto 
 
 En el lanzamiento del iPhone (2007) Steve Jobs presentó a la plataforma web como [una nueva forma innovadora de crear aplicaciones para iPhone](https://www.apple.com/newsroom/2007/06/11iPhone-to-Support-Third-Party-Web-2-0-Applications/) (lo que hoy serían las PWA). ¿Qué loco no?
 
-<iframe width="100%" src="https://www.youtube.com/embed/UNfeWpghR4c?start=4466" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/p1nwLilQy64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Lamentablemente en ese entonces la tecnología web no estaba a la altura, la comunidad de desarrollo lo expresó, pasaron cosas (jailbreak en el medio), crean el SDK para nativo, definen modelo de negocio (70-30) y lanzan el App Store (2008).
 
