@@ -59,7 +59,7 @@ export default function Footer() {
             document.head.appendChild(s);
           }
 
-          const prefetch = hasPrerender ? prerender : hasPrefetch() ? viaPrefetch : viaFetch;
+          const prefetch = hasPrerender() ? prerender : hasPrefetch() ? viaPrefetch : viaFetch;
 
           const io = new IntersectionObserver(
             async (entries) => {
