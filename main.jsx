@@ -20,9 +20,14 @@ blog({
     { title: 'Twitter', url: 'https://twitter.com/pazguille' },
   ],
   dateFormat: (date) => date.toLocaleDateString('es-AR', { dateStyle: 'medium' }),
-  // middlewares: [
-  //   ga4('G-7PQP926E3C'), // Waiting for https://github.com/denoland/deno_blog/pull/31
-  // ],
+  middlewares: [
+    // async (req, ctx) => {
+    //   const { pathname } = new URL(req.url);
+    //   console.log('req', pathname);
+    //   return await ctx.next();
+    // }
+    // ga4('G-7PQP926E3C'), // Waiting for https://github.com/denoland/deno_blog/pull/31
+  ],
   footer: <Footer />,
   style: `ul { list-style: disc; } ol { list-style: decimal; } iframe { aspect-ratio:16/9; }
   img { aspect-ratio: 16/9; width: 100%;`,

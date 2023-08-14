@@ -28,12 +28,45 @@ export default function Footer() {
             }, 1);
           };
 
+          function hasPrefetch() {
+            const link = document.createElement('link');
+            return link.relList && link.relList.supports && link.relList.supports('prefetch');
+          }
+
+          function viaPrefetch(url) {
+            document.head.insertAdjacentHTML('beforeend', '<link rel="prefetch" href="'+ url +'" />');
+          }
+
+          function viaFetch(url) {
+            fetch(url, {credentials: 'include'});
+          }
+
+          function viaXHR(url) {
+            const xhr = new XMLHttpRequest();
+            xhr.withCredentials = true;
+            xhr.open('GET', url, true);
+            xhr.send();
+          }
+
+          function hasPrerender() {
+            return HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules');
+          }
+
+          function prerender(url) {
+            const s = document.createElement('script');
+            s.type = 'speculationrules';
+            s.text = '{"prerender":[{"source": "list","urls": ["'+ url +'"]}]}';
+            document.head.appendChild(s);
+          }
+
+          const prefetch = hasPrerender ? prerender : hasPrefetch() ? viaPrefetch : viaFetch;
+
           const io = new IntersectionObserver(
             async (entries) => {
               entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                   requestIdleCallback(() => {
-                    document.head.insertAdjacentHTML('beforeend', '<link rel="prefetch" href="'+ entry.target.href +'" />');
+                    prefetch(entry.target.href);
                     io.unobserve(entry.target);
                   });
                 }
