@@ -12,11 +12,11 @@ Después de leer mucho llegué a la conclusión que prefiero hacer una diferenci
 
 **Microfrontends**: la separación de una experiencia completa (el negocio) en diferentes aplicaciones de frontend.
 
-![alt](https://photos.collectednotes.com/photos/147/c3f5ea3c-547b-4002-8a23-2cc2f542cc55)
+![alt](../assets/vertical-split.jpg)
 
 **Fragments**: Componentes que se comparten entre aplicaciones, o bien, que los responsables son otros equipos.
 
-![alt](https://photos.collectednotes.com/photos/147/b9138709-0ded-4b35-8887-e7d5feab2bfb)
+![alt](../assets/horizontal-split.jpg)
 
 Creo que en la mayoría de los casos es necesario pensar en una arquitectura de microfrontends para que las cosas escalen a nivel técnico,  a nivel equipo y en el tiempo.
 

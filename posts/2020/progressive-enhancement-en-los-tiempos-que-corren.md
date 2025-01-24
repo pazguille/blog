@@ -8,8 +8,6 @@ publish_date: 2020-07-09
 
 ---
 
-![alt](https://photos.collectednotes.com/photos/147/c8c220cf-0245-4190-aaf2-eef939972768)
-
 Cuando empecé a aprender web tuve la suerte de estar rodeado de personas que me enseñaron diferentes conceptos para desarrollar y construir frontends.
 
 Uno de estos conceptos fue *Progressive Enhancement* (Mejora Progresiva).
@@ -24,8 +22,6 @@ Aquellas personas que podemos comer maní y nos gusta, lo disfrutamos cuando vie
 
 Si al maní le aplicamos *Mejora Progresiva*, obtenemos un resultado mucho más rico y seguimos comiendo maní.
 
-![alt](https://photos.collectednotes.com/photos/147/241d1720-ea4e-452b-9691-74c08def0bc8)
-
 Si lo llevamos al desarrollo frontend podemos decir que **es una filosofía que nos invita a pensar en la funcionalidad básica de nuestro frontend y mejorarla de manera progresiva sumando features.**
 
 En la actualidad hay detractores de esta forma de pensar y el concepto está pasando al olvido.
@@ -33,8 +29,6 @@ En la actualidad hay detractores de esta forma de pensar y el concepto está pas
 [twitter https://twitter.com/pazguille/status/1280478459077300226]
 
 [Hace unos años se explicaba](https://alistapart.com/article/understandingprogressiveenhancement/) que las capas de mejora eran HTML como el contenido (maní), CSS como la presentación (chocolate) y JavaScript como la interacción (confite).
-
-![alt](https://photos.collectednotes.com/photos/147/e8e53834-492b-4df4-85f2-245e5764f787)
 
 Al contarlo de esta manera, es entendible por qué está quedando en el olvido y más si respondemos la pregunta: *¿Cuántos navegadores no soportan CSS o JS?*.
 
@@ -62,8 +56,6 @@ Podríamos implementarlo de la siguiente manera:
 Ahora, necesitamos agregar el JavaScript responsable de la interacción del botón, los eventos de teclado para el enter, las validaciones necesarias, obtener el nuevo valor y enviarlo.
 
 🚫 ¡NO!
-
-![alt](https://photos.collectednotes.com/photos/147/df1d8102-c302-4715-99b4-8aafdb65bf6f)
 
 *¿Qué? ¿De qué habla señor mayor?*
 

@@ -1,6 +1,10 @@
 {
   "tasks": {
-    "dev": "TZ=UTC deno run --allow-net --allow-read --allow-env --watch --no-check main.jsx --dev",
+    "dev": "TZ=UTC deno run --allow-net --allow-read --allow-import --allow-env --watch --no-check main.jsx --dev",
     "serve": "TZ=UTC deno run --allow-net --allow-read --allow-env --no-check main.jsx"
+  },
+  "imports": {
+    "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx",
+    "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm@^0.10.0"
   }
 }

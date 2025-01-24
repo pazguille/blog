@@ -10,7 +10,7 @@ publish_date: 2022-05-12
 
 La idea principal de Web Components es extender la plataforma por eso es fundamental conocer a fondo HTML, CSS y JavaScript.
 
-![La frase "Opiniones sobre Web Components" escrita en una hoja junto a un lápiz y sacapuntas](https://photos.collectednotes.com/photos/147/8731e367-7874-4de3-83c3-3066c1863dc8)
+![La frase "Opiniones sobre Web Components" escrita en una hoja junto a un lápiz y sacapuntas](../assets/opiniones.jpg)
 
 Web Components es un término que engloba varias tecnologías y no es una en particular.  En este caso agrupa [**Custom elements**](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements),  [**Shadow DOM**](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM) y [**HTML templates**](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots).
 
@@ -59,7 +59,7 @@ Siempre tuvimos que recurrir a frameworks o librerías ([Mootools](https://mooto
 
 Por otro lado, tiene limitaciones para aplicar estilos a algunos elementos HTML, como el famoso caso del `<select>`.
 
-![alt](https://photos.collectednotes.com/photos/147/8a2687cb-9e7a-475d-a3c8-b09e05e34d9d)
+![alt](../assets/select-web-component.png)
 
 Parece algo básico, pero esta limitación nos llevó a crear cientos de componentes, reescribiéndolos cada vez que salía un framework nuevo y en el fondo terminamos rompiendo la web (en términos de accesibilidad seguro).
 

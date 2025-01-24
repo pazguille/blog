@@ -10,7 +10,7 @@ publish_date: 2021-10-08
 
 Me gustaría compartir algunos principios e intenciones que fui aprendiendo y adoptando a la hora de desarrollar frontends.
 
-![alt](https://photos.collectednotes.com/photos/147/189dabb9-e8f1-4234-bc0a-d04a114beccd)
+![alt](../assets/manifiesto.jpg)
 
 Versión slides: https://manifesto.pazguille.me
 

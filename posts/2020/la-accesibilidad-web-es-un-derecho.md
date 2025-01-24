@@ -8,8 +8,6 @@ publish_date: 2020-06-07
 
 ---
 
-![Accesibilidad no es un feature](https://photos.collectednotes.com/photos/147/3cb2020d-d5a4-46bb-98a7-a9a302e4f999)
-
 >  La accesibilidad web es la práctica inclusiva de garantizar que los sitios web, las herramientas y las tecnologías estén diseñados y desarrollados para que las personas con discapacidad puedan usarlas. Más específicamente, que todos aquellos usuarios puedan percibir, comprender, navegar, interactuar y contribuir con la Web.
 
 > Wikipedia.
@@ -36,8 +34,7 @@ Por otro lado, contamos con WAI-ARIA que nos permite hacer más accesible el HTM
 
 De todos modos, ARIA no es la salvación!
 
-![Por ejemplo, rompemos la accesibilidad web al no usar un elemento div en lugar de un botón](https://pbs.twimg.com/media/EZutBrMWoAI0s3l?format=jpg&name=medium)
-
+Por ejemplo, rompemos la accesibilidad web al no usar un elemento div en lugar de un botón.
 [Pueden ver más ejemplos!](https://twitter.com/htm_hell)
 
 Una dato de vital importancia es que [existen leyes de a11y en varios países de América Latina](http://accesibilidadweb.dlsi.ua.es/?menu=iberoamerica ) y Argentina es uno de ellos!

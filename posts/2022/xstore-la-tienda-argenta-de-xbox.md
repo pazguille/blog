@@ -12,7 +12,7 @@ publish_date: 2022-06-01
 
 Cansado de tener que estar calculando a mano cuánto me saldría cada juego y sumada la mala experiencia del store actual (ya que no hay versión mobile) nace este proyecto.
 
-![alt](https://photos.collectednotes.com/photos/147/6f6510f4-b8a0-4a0d-a06b-14901bbe1bfa)
+![alt](../assets/xstore.jpg)
 
 XStore te ahorra el paso extra de tener que abrir la calculadora cada vez que querés comprar un juego.
 

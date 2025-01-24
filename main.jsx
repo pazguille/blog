@@ -1,7 +1,6 @@
 /** @jsx h */
 import { h } from 'https://esm.sh/preact';
-import blog, { ga } from 'https://deno.land/x/blog@0.5.0/blog.tsx';
-// import blog from 'https://raw.githubusercontent.com/pazguille/deno_blog/main/blog.tsx';
+import blog from 'blog';
 import Footer from './components/Footer.jsx';
 
 blog({
@@ -30,5 +29,5 @@ blog({
   ],
   footer: <Footer />,
   style: `ul { list-style: disc; } ol { list-style: decimal; } iframe { aspect-ratio:16/9; }
-  img { aspect-ratio: 16/9; width: 100%;`,
+  img { width: 100% };`,
 });

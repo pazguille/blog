@@ -8,8 +8,6 @@ publish_date: 2020-06-21
 
 ---
 
-![En el evento scroll siempre queremos que suceda magia](https://photos.collectednotes.com/photos/147/409a24d1-ec3e-4752-a5ae-c704ec813051)
-
 El otro día [@okbel](https://twitter.com/okbel/) publicó un tweet comentando sobre el deseo de un Infinity Scroll para navegar los listados de productos.
 
 [twitter https://twitter.com/okbel/status/1274089886031777792]

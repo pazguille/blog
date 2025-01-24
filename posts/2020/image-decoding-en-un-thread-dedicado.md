@@ -8,8 +8,6 @@ publish_date: 2020-05-25
 
 ---
 
-![alt text](https://photos.collectednotes.com/photos/147/76f736c2-32c2-42c9-8b89-c20de8279d52)
-
 *¿Tiene sentido? ¿Cuándo es necesario hacerlo? ¿Por qué sibarita es tan rica?*
 
 El proceso de `image decoding` sucede luego de descargar una imagen cuando el browser obtiene la información de los colores de cada pixel para saber cómo dibujarla en la pantalla ([rasterización](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y/edit#slide=id.g60f92a5151_40_648)).

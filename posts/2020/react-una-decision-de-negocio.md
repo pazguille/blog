@@ -4,8 +4,8 @@ title: >
 description: >
   A principios de 2016 empecé a probar React y pude "ver" con mis propios dedos los beneficios que brinda en la experiencia de desarrollo y en la performance de la UI.
 publish_date: 2020-05-30
-cover_html: <img alt="" src="https://photos.collectednotes.com/photos/147/546a4a14-18d9-4c4b-ac60-9a2daf75c2d6" style="margin:0 auto;" width="592" height="395">
-og:image: https://photos.collectednotes.com/photos/147/546a4a14-18d9-4c4b-ac60-9a2daf75c2d6
+cover_html: <img alt="" src="../assets/negocio.jpg" style="margin:0 auto;" width="592" height="395">
+og:image: https://blog.pazguille.me/assets/negocio.jpg
 ---
 
 ---

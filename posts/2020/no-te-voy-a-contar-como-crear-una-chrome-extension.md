@@ -8,8 +8,6 @@ publish_date: 2020-07-13
 
 ---
 
-![Una persona haciendo el gesto de silencio](https://photos.collectednotes.com/photos/147/eed1f512-3223-480b-9239-d884351f4d1a)
-
 En una primera instancia tenía pensado escribir sobre [qué son](https://developer.chrome.com/extensions) y [cómo crear extensiones para Chrome](https://developer.chrome.com/extensions/getstarted).
 
 Lo que me motivo fue lo sencillo de crear [la extensión de Collected Notes](https://github.com/pazguille/collected-notes-extension) y la buena onda de la gente que se copó haciendo sugerencias y tirando ideas.

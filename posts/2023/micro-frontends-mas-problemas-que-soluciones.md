@@ -20,7 +20,7 @@ Principalmente, hay dos formas de hacerlo:
 
 **Vertical split**: permite dividir el negocio en varias aplicaciones de frontend priorizando la experiencia completa de cada interfaz. Cada aplicación se asigna a un equipo responsable. Una pantalla un  responsable.
 
-![alt](https://microfrontend.dev/images/frameworks/splits.svg)
+![alt](https://microfrontend.dev/images/frameworks/splits.dark.svg)
 
 Los micro-frontends con horizontal split traen más problemas que soluciones y lo que intentan es resolver un problema organizacional del equipo de IT / Producto, que impacta directamente en la UX.
 
@@ -30,7 +30,7 @@ Se vuelve complejo velar por la performance, la estabilidad, la accesibilidad y 
 
 Uno de los principales beneficios que plantea esta estrategia es ganar agilidad e independencia para... ¿el user o el dev? ¿qué impacto tiene en el user final? Es una solución 100% orientada a desarrollo.
 
-Hago una distinción entre micro-frontends y fragments: 
+Hago una distinción entre micro-frontends y fragments:
 
 - **Micro-frontends**: la separación de una experiencia completa (el negocio) en diferentes partes (aplicaciones de frontend).
 
@@ -51,7 +51,7 @@ En base a mi experiencia con micro-frontends recomiendo:
 
 
 Lectura recomendada:
-- [microfrontend.dev](https://microfrontend.dev/)  
+- [microfrontend.dev](https://microfrontend.dev/)
 
 
 Chao. 🚀
@@ -59,4 +59,3 @@ Chao. 🚀
 ---
 
 *La foto de cover y del post es del sitio https://microfrontend.dev/architecture/#patterns.*
-
