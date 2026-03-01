@@ -33,7 +33,7 @@ serve(async (req) => {
     });
   }
 
-  const deploy = (`${deployctl} deploy --token=${Deno.env.get('DENO_DEPLOY_TOKEN')} --project=pazguille-blog https://blog.pazguille.me/main.jsx`).split(' ');
+  const deploy = (`${deployctl} deploy --token=${Deno.env.get('DEPLOY_TOKEN')} --project=pazguille-blog https://blog.pazguille.me/main.jsx`).split(' ');
   const pd = Deno.run({
     cmd: deploy,
     stdout: "piped",
