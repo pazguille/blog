@@ -16,7 +16,7 @@ blog({
   links: [
     { title: 'Email', url: 'mailto:guille87paz@gmail.com' },
     { title: 'GitHub', url: 'https://github.com/pazguille' },
-    { title: 'Twitter', url: 'https://twitter.com/pazguille' },
+    { title: 'X', url: 'https://x.com/pazguille', icon: '𝕏' },
   ],
   dateFormat: (date) => date.toLocaleDateString('es-AR', { dateStyle: 'medium' }),
   middlewares: [
