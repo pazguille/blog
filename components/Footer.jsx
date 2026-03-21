@@ -1,5 +1,5 @@
 /** @jsx h */
-import { h } from 'https://esm.sh/preact';
+import { h } from 'blog';
 
 export default function Footer() {
   return (

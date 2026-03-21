@@ -1,6 +1,5 @@
 /** @jsx h */
-import { h } from 'https://esm.sh/preact';
-import blog from 'blog';
+import blog, { h } from 'blog';
 import Footer from './components/Footer.jsx';
 
 await blog({
