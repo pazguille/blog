@@ -3,11 +3,6 @@
     "dev": "deno run -A --watch --no-check main.jsx --dev",
     "serve": "deno run -A --no-check main.jsx"
   },
-  "compilerOptions": {
-    "jsx": "react",
-    "jsxFactory": "h",
-    "jsxFragmentFactory": "Fragment"
-  },
   "imports": {
     "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx"
   },

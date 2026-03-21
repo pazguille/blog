@@ -1,3 +1,4 @@
+/** @jsx h */
 import { h } from 'blog';
 
 export default function Footer() {

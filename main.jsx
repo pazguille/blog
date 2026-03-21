@@ -1,3 +1,4 @@
+/** @jsx h */
 import blog, { h } from 'blog';
 import Footer from './components/Footer.jsx';
 
