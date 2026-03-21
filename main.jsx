@@ -3,7 +3,7 @@ import { h } from 'https://esm.sh/preact';
 import blog from 'blog';
 import Footer from './components/Footer.jsx';
 
-blog({
+await blog({
   lang: 'es-AR',
   theme: 'dark',
   author: 'Guille Paz',
