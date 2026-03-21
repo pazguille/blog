@@ -1,7 +1,7 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@deno/gfm@0.10.0": "0.10.0",
+    "jsr:@deno/gfm@0.10": "0.10.0",
     "jsr:@denosaurs/emoji@0.3": "0.3.1",
     "npm:github-slugger@2": "2.0.0",
     "npm:he@^1.2.0": "1.2.0",
@@ -309,6 +309,9 @@
     "https://deno.land/std@0.193.0/yaml/schema/json.ts": "5f41dd7c2f1ad545ef6238633ce9ee3d444dfc5a18101e1768bd5504bf90e5e5",
     "https://deno.land/std@0.193.0/yaml/schema/mod.ts": "4472e827bab5025e92bc2eb2eeefa70ecbefc64b2799b765c69af84822efef32",
     "https://deno.land/std@0.193.0/yaml/type.ts": "1aabb8e0a3f4229ce0a3526256f68826d9bdf65a36c8a3890ead8011fcba7670",
+    "https://deno.land/x/blog@0.7.0/blog.tsx": "f816705d3063ea8e0c0ae680ad55a214cab2071fde555f658f0c2e37d0727f9b",
+    "https://deno.land/x/blog@0.7.0/components.tsx": "6d36eda9116a569fb85fa2adce781552a013b42864dd3fc3b48d961992c1619e",
+    "https://deno.land/x/blog@0.7.0/deps.ts": "07b11ea7e82f3d0a4a192c90b080b0210638e26b70e71cca04ee57ed9213c992",
     "https://deno.land/x/g_a@0.1.2/mod.ts": "6016891e4aa825a82e14782cf45be5705aa42f3ed5e8378200a6e0136239f572",
     "https://deno.land/x/htm@0.1.3/html.tsx": "b1c1e8ff8af45dbdf4dd6d90dea37ff8e9c86c705f672f9b53911691ed12e6fd",
     "https://deno.land/x/htm@0.1.3/mod.ts": "93485a06c930907a40f09eb8d9deadf27aaaa228c5037a24be7a08b82c8b4bee",
@@ -367,9 +370,6 @@
     "https://esm.sh/sax@1.6.0?target=denonext": "90edf8aea409972a7be1a323331a9c428e1db378e21354058bf2e67cf00fd405",
     "https://esm.sh/xml-js@1.6.11/denonext/xml-js.mjs": "e1863b42f0016edd5321d08aae2e92f6f856027ed813d5825a413fbbc0dfb875",
     "https://esm.sh/xml-js@1.6.11?target=denonext": "9f30bf1857f9da9c902c290b59f6b399c973d3dc7e35f11c5db2502aad733f63",
-    "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx": "487ab3787a36768fda85c041e2fa797c096e9ab567140c754543d63a55258e42",
-    "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/components.tsx": "3a51e21963ca926675e18a8fdb6a999e451997fd5bc359c03f7d7759411d8dfa",
-    "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/deps.ts": "c604dd6201bce583cae45b57c6e0eb44238d89eee9fea923b9e79f7bb9135e78",
     "https://raw.githubusercontent.com/kt3k/callsites/v1.0.0/mod.ts": "a5fdfa7916d03459fd4830ca526d493d5f4ce0ea91619905d524c9a3a5c3cd15"
   },
   "workspace": {
