@@ -1,6 +1,12 @@
 /** @jsx h */
 import { configureBlog, createBlogHandler, h } from 'blog';
+import html from "https://deno.land/x/htm@0.1.3/html.tsx";
+import UnoCSS from "https://deno.land/x/htm@0.1.3/plugins/unocss.ts";
+import ColorScheme from "https://deno.land/x/htm@0.1.3/plugins/color-scheme.ts";
 import Footer from './components/Footer.jsx';
+
+html.use(UnoCSS());
+html.use(ColorScheme("auto"));
 
 const blogState = await configureBlog(import.meta.url, false, {
   lang: 'es-AR',
