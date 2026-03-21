@@ -4,7 +4,7 @@
     "serve": "TZ=UTC deno run --allow-net --allow-read --allow-env --no-check main.jsx"
   },
   "imports": {
-    "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx",
+    "blog": "https://deno.land/x/blog@0.7.0/blog.tsx",
     "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm@^0.10.0"
   }
 }
