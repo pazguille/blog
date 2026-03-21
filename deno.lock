@@ -10,8 +10,6 @@
     "npm:marked-footnote@^1.2.0": "1.4.0_marked@12.0.2",
     "npm:marked-gfm-heading-id@^3.1.0": "3.2.0_marked@12.0.2",
     "npm:marked@12": "12.0.2",
-    "npm:preact-render-to-string@5.2.6": "5.2.6_preact@10.11.2",
-    "npm:preact@10.11.2": "10.11.2",
     "npm:prismjs@^1.29.0": "1.30.0",
     "npm:sanitize-html@^2.13.0": "2.17.2"
   },
@@ -142,19 +140,6 @@
         "picocolors",
         "source-map-js"
       ]
-    },
-    "preact-render-to-string@5.2.6_preact@10.11.2": {
-      "integrity": "sha512-JyhErpYOvBV1hEPwIxc/fHWXPfnEGdRKxc8gFdAZ7XV4tlzyzG847XAyEZqoDnynP88akM4eaHcSOzNcLWFguw==",
-      "dependencies": [
-        "preact",
-        "pretty-format"
-      ]
-    },
-    "preact@10.11.2": {
-      "integrity": "sha512-skAwGDFmgxhq1DCBHke/9e12ewkhc7WYwjuhHB8HHS8zkdtITXLRmUMTeol2ldxvLwYtwbFeifZ9uDDWuyL4Iw=="
-    },
-    "pretty-format@3.8.0": {
-      "integrity": "sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew=="
     },
     "prismjs@1.30.0": {
       "integrity": "sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw=="
@@ -370,6 +355,10 @@
     "https://esm.sh/feed@4.2.2/denonext/feed.mjs": "cd62fd7f1ce84670f17fa404d1d7d4da0b22346af2202be860767977463d5e37",
     "https://esm.sh/load-tsconfig@0.2.5": "1bcccdfb8f2ffad5c164c4feef2704a62c5d13757eaa7143765d2a55f508ef75",
     "https://esm.sh/load-tsconfig@0.2.5/denonext/load-tsconfig.mjs": "1787395365585724ad09aac392850cebe889bcf5b03e535fe3dd1d5a5b68587a",
+    "https://esm.sh/preact-render-to-string@5.2.6/X-ZHByZWFjdEAxMC4xMS4y/denonext/preact-render-to-string.mjs": "79f1e2093cd6abe986b33a67b305b93599ae9565cefbbdbf4de7a4543fadfd8c",
+    "https://esm.sh/preact-render-to-string@5.2.6?deps=preact@10.11.2": "64c6f9389c5b9a6829d1701b79af2020ac69e58fc277aa26f3992a7b64fc1d93",
+    "https://esm.sh/preact@10.11.2": "18a7431ede15657273d53f1eed644aa7e11c8a57bffff2e6f1d2ef318c104feb",
+    "https://esm.sh/preact@10.11.2/denonext/preact.mjs": "74f26f7298e0b45c65bea3b89513dbdd912dbf27d375ba5e629fbace3ec19600",
     "https://esm.sh/prismjs@1.29.0/components/prism-c?no-check": "d35163060a777c83e472115be512d2694776d37c864e7ade9202e756187d3b7b",
     "https://esm.sh/prismjs@1.29.0/denonext/components/prism-c.mjs": "cd4bae2fb9ff9a3ac410d75e2c671755fe95c9e9366c69405e72e61f382d5206",
     "https://esm.sh/remove-markdown@0.5.0": "ecf214b0f066c6515626027535fcc5db3eaa191d4e4eb94dc075cc8bdbd5efb4",
@@ -382,12 +371,5 @@
     "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/components.tsx": "3a51e21963ca926675e18a8fdb6a999e451997fd5bc359c03f7d7759411d8dfa",
     "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/deps.ts": "c604dd6201bce583cae45b57c6e0eb44238d89eee9fea923b9e79f7bb9135e78",
     "https://raw.githubusercontent.com/kt3k/callsites/v1.0.0/mod.ts": "a5fdfa7916d03459fd4830ca526d493d5f4ce0ea91619905d524c9a3a5c3cd15"
-  },
-  "workspace": {
-    "dependencies": [
-      "jsr:@deno/gfm@0.10",
-      "npm:preact-render-to-string@5.2.6",
-      "npm:preact@10.11.2"
-    ]
   }
 }

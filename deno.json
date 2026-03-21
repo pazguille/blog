@@ -1,7 +1,7 @@
 {
   "tasks": {
-    "dev": "TZ=UTC deno run --allow-net --allow-read --allow-import --allow-env --watch --no-check main.jsx --dev",
-    "serve": "TZ=UTC deno run --allow-net --allow-read --allow-env --no-check main.jsx"
+    "dev": "deno run -A --watch --no-check main.jsx --dev",
+    "serve": "deno run -A --no-check main.jsx"
   },
   "compilerOptions": {
     "jsx": "react",
@@ -9,13 +9,7 @@
     "jsxFragmentFactory": "Fragment"
   },
   "imports": {
-    "preact": "npm:preact@10.11.2",
-    "preact/jsx-runtime": "npm:preact@10.11.2/jsx-runtime",
-    "preact-render-to-string": "npm:preact-render-to-string@5.2.6",
-    "https://esm.sh/preact@10.11.2": "npm:preact@10.11.2",
-    "https://esm.sh/preact-render-to-string@5.2.6?deps=preact@10.11.2": "npm:preact-render-to-string@5.2.6",
-    "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx",
-    "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm@^0.10.0"
+    "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx"
   },
   "deploy": {
     "org": "pazguille",
