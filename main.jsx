@@ -1,13 +1,5 @@
-/** @jsx h */
 import blog, { h } from 'blog';
 import Footer from './components/Footer.jsx';
-
-// Workaround for Deno Deploy URL.canParse bug with absolute paths
-const _canParse = URL.canParse;
-URL.canParse = function(url, base) {
-  if (typeof url === 'string' && url.startsWith('/')) return false;
-  return _canParse ? _canParse.call(URL, url, base) : false;
-};
 
 await blog({
   lang: 'es-AR',
