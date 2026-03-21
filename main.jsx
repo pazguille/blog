@@ -1,8 +1,8 @@
 /** @jsx h */
-import blog, { h } from 'blog';
+import { configureBlog, createBlogHandler, h } from 'blog';
 import Footer from './components/Footer.jsx';
 
-await blog({
+const blogState = await configureBlog(import.meta.url, false, {
   lang: 'es-AR',
   theme: 'dark',
   author: 'Guille Paz',
@@ -30,3 +30,7 @@ await blog({
   style: `ul { list-style: disc; } ol { list-style: decimal; } iframe { aspect-ratio:16/9; }
   img { width: 100% };`,
 });
+
+const handler = createBlogHandler(blogState);
+
+Deno.serve(handler);
