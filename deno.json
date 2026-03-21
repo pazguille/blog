@@ -16,5 +16,9 @@
     "https://esm.sh/preact-render-to-string@5.2.6?deps=preact@10.11.2": "npm:preact-render-to-string@5.2.6",
     "blog": "https://raw.githubusercontent.com/denoland/deno_blog/589c4750d001ae2a4e921385be558d97060e3933/blog.tsx",
     "https://deno.land/x/gfm@0.2.5/mod.ts": "jsr:@deno/gfm@^0.10.0"
+  },
+  "deploy": {
+    "org": "pazguille",
+    "app": "blog-pazguille"
   }
 }
